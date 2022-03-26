@@ -7,7 +7,7 @@ const Logo = (props) => {
       <img
         src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/150.png"
         alt="#"
-        onClick = {props.handleClick}
+        onClick={props.handleClick}
       />
     </header>
   );
