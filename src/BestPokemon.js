@@ -6,7 +6,7 @@ const BestPokemon = (props) => {
       <p>My favorite Pokemon is Mewtwo</p>
       <ul>
         {props.abilities.map((ability) => (
-          <li>{ability}</li>
+          <li key={ability}>{ability}</li>
         ))}
       </ul>
     </div>
